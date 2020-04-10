@@ -1,0 +1,11 @@
+.blog-button {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 9px;
+  min-height: 45px;
+  height: 3.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: #0234d2;
+}

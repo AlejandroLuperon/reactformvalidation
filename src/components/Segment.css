@@ -1,0 +1,59 @@
+.segment-container {
+  min-height: max(100vh, 600px);
+  width: 100%;
+}
+
+.segment-top {
+
+}
+
+.segment-gif {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.segment-logo-img {
+
+}
+
+@media (min-width: 768px) {
+  .segment-container {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .segment-container {
+    padding: 50px 15px 50px 15px;
+  }
+
+  .segment-gif-container {
+    margin-top: 50px;
+  }
+
+  .segment-gif-container {
+    margin-bottom: 50px;
+  }
+}
+
+.segment-title {
+  margin-right: 10px;
+}
+
+
+.segment-wrapper {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.segment-header {
+  margin-bottom: 25px;
+}
+
+.segment-bottom, .segment-link {
+  margin-top: 50px;
+}
+
+.segment-projects > *:not(:last-child) {
+  margin-bottom: 25px;
+}

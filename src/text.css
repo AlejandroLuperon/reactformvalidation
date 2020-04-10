@@ -1,0 +1,57 @@
+.regular-text, .body-copy {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.regular-text, .body-copy {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.form-item-label, .body-copy-header  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+
+.form-item-error {
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .form-item-error {
+    font-size: max(1.041vw, 12px);/*1.041vw;*/
+  }
+
+  .form-item-label {
+    font-size: max(1.30vw, 20px);/*1.5625vw;*/
+  }
+
+  .body-copy-header {
+    font-size: 2.87vw;
+  }
+
+  .body-copy {
+    font-size: max(1.5625vw, 25px);/*1.5625vw;*/
+  }
+}
+
+@media (max-width: 767px) {
+  .form-item-error {
+    font-size: 2.133vw;
+  }
+
+  .body-copy-header {
+    font-size: 6.4vw;
+  }
+
+  .body-copy {
+    font-size: 3.333vw;
+  }
+
+  .form-item-label {
+    font-size: 4.26vw;
+  }
+}

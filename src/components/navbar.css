@@ -1,0 +1,24 @@
+
+  .navbar-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+@media (max-width: 767px) {
+  .navbar-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.navbar-link:not(:last-child) {
+  margin-right: 25px;
+}
+
+.navbar-link {
+  text-decoration: underline;
+}
+
+.navbar-link:hover {
+  cursor: pointer;
+}
